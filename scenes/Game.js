@@ -21,7 +21,7 @@ export default class Game extends Phaser.Scene {
     //cargar assets
 
     //import Cielo
-    this.load.image("cielo", "../public/assets/Cielo.webp");
+    this.load.image("cielo", "./public/assets/Cielo.webp");
 
     //import plataforma
     this.load.image("plataforma", "../public/assets/platform.png");
